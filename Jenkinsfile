@@ -2,7 +2,7 @@ node {
     // change that to the docker repository where build artifacts will be
     // pushed. If you are using Docker Hub, that would look like
     // your-username/sample-service
-    def DOCKER_REPO = "datagridsys/sample-service"
+    def DOCKER_REPO = "pavelgeorgiev/sample-service"
 
     stage "build"
     checkout scm
